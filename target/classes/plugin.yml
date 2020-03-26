@@ -1,0 +1,11 @@
+name: CustomMessages
+version: 1.0-SNAPSHOT
+main: me.rafaelpiloto10.custommessages.CustomMessages
+api-version: 1.13
+author: Rafael Piloto
+description: Plugin for custom messages ie. New Player messages, World Messages, Admin Messages, etc.
+website: https://rafaelpiloto10.herokuapp.com
+
+commands:
+  announce:
+    description: Announce a message to the server using custom formatting and features

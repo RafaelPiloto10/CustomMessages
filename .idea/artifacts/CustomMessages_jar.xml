@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CustomMessages:jar">
+    <output-path>$USER_HOME$/Desktop/Minecraft Spigot Server/plugins</output-path>
+    <root id="archive" name="CustomMessages.jar">
+      <element id="module-output" name="CustomMessages" />
+    </root>
+  </artifact>
+</component>

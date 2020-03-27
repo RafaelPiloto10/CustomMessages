@@ -27,7 +27,7 @@ chat-formats: # Custom messages - First line is rank 1 (ADMIN/HOST/ETC), last li
   - "&r&f[Villager] <name>&r&f: <msg>"
 ```
 
-# New Player Join Event
+### New Player Join Event
 ```yaml
 custom-join: true # Custom when a player joins?
 custom-join-message: "&e<name> has joined the server!" # Message to display when a player has joined - <name> must be present to display player name - '&' color codes may be used

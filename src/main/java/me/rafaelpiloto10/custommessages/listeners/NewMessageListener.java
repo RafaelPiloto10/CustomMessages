@@ -21,15 +21,13 @@ public class NewMessageListener implements Listener {
     @EventHandler
     public void onNewMessage(AsyncPlayerChatEvent e) {
         String message = e.getMessage();
-
-        if (e instanceof Player) {
-            Player p = (Player) e;
-            if (p.hasPermission("custommessages.customformat.use")) {
-                List<String> formats = plugin.getConfig().getStringList("chat-formats");
-                for (int i = 1; i <= plugin.getConfig().getInt("chat-format-amount"); i++) {
-                    if (p.hasPermission("custommessages.ranks." + i)) {
-                        e.setFormat(Utils.chat(formats.get(i).replace("<name>", p.getDisplayName()).replace("<msg>", message)));
-                    }
+        Player p = e.getPlayer();
+        if (p.hasPermission("custommessages.customformat.use")) {
+            List<String> formats = plugin.getConfig().getStringList("chat-formats");
+            for (int i = 0; i < plugin.getConfig().getInt("chat-format-amount"); i++) {
+                if (p.hasPermission("custommessages.ranks.rank_" + (i + 1))) {
+                    e.setFormat(Utils.chat(formats.get(i).replace("<name>", p.getDisplayName()).replace("<msg>", message)));
+                    return;
                 }
             }
         }

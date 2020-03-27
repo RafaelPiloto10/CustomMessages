@@ -1,7 +1,7 @@
 # Announce
 announce-error-no-message: "&cProvide a message to announce!" # Error message when trying to announce but provided no message - '&' color codes may be used
 no-permission: "&cYou do not have permission to announce!" # Error message when the player tries to announce, but doesn't have the permissions '&' color codes may be used
-announce-message-tag: "&c[&7Announcement&c] &a" # Tag to identify it is an announcement - '&' color codes may be used
+announce-message-tag: "&c[&6Announcement&c] &a" # Tag to identify it is an announcement - '&' color codes may be used
 
 # Chat Messages - Make sure to set permissions in your permission.yml file to set the permission ranks
 chat-format-amount: 3 # How many ranks you want
@@ -14,10 +14,11 @@ chat-formats: # Custom messages - First line is rank 1 (ADMIN/HOST/ETC), last li
 # New Player Join Event
 custom-join: true # Custom when a player joins?
 custom-join-message: "&e<name> has joined the server!" # Message to display when a player has joined - <name> must be present to display player name - '&' color codes may be used
-new-player-join: # Message to display when a new player has joined - <name> must be present to display player name - '&' color codes may be used
-  - "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
-  - ""
-  - "&l&6WELCOME &r&e<name>! to the server!"
+new-player-join: true
+new-player-join-message: # Message to display when a new player has joined - <name> must be present to display player name - '&' color codes may be used
+  - "&6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  - " "
+  - "&l&6WELCOME &r&e<name> to the server!"
   - "&cMake sure to join our discord server: !"
-  - ""
-  - "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  - " "
+  - "&6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"

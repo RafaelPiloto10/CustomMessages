@@ -1,11 +1,11 @@
 default:
   custommessages:
     announce:
-      use: false
+      use: true
     # Different format rankings - Ensure this lines up with your config.yml
     ranks:
-      1: false
+      1: true
       2: false
       3: false
     customformat:
-      use: false
+      use: true

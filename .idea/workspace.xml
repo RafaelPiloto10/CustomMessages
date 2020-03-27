@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CustomMessages:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="09084a26-9d3e-47e5-978c-6718817208bb" name="Default Changelist" comment="" />
+    <list default="true" id="09084a26-9d3e-47e5-978c-6718817208bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/rafaelpiloto10/custommessages/listeners/NewMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/rafaelpiloto10/custommessages/listeners/NewMessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/rafaelpiloto10/custommessages/listeners/NewPlayerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/rafaelpiloto10/custommessages/listeners/NewPlayerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/permissions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/permissions.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/rafaelpiloto10/custommessages/listeners/NewMessageListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/rafaelpiloto10/custommessages/listeners/NewMessageListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/rafaelpiloto10/custommessages/listeners/NewPlayerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/rafaelpiloto10/custommessages/listeners/NewPlayerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/permissions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/permissions.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +42,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Ze8Ipxz4A8eJgqp1PHNFs8gw2d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -38,6 +59,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
